@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery with Lightbox</title>
+  <link rel="stylesheet" href="style1.css">
+ 
+</head>
+<body>
+
+
+  <div class="gallery">
+   <img src="img/1.jpg" onclick="openLightbox(0)">
+    <img src="img/2.jpg" onclick="openLightbox(1)">
+    <img src="img/3.jpg" onclick="openLightbox(2)">
+    <img src="img/4.jpg" onclick="openLightbox(3)">
+    <img src="img/5.jpg" onclick="openLightbox(4)">
+    <img src="img/6.jpg" onclick="openLightbox(5)">
+    <img src="img/7.jpg" onclick="openLightbox(6)">
+    <img src="img/8.jpg" onclick="openLightbox(7)">
+    <img src="img/9.jpg" onclick="openLightbox(8)">
+    <img src="img/10.jpg" onclick="openLightbox(9)">
+    <img src="img/11.jpg" onclick="openLightbox(10)">
+    <img src="img/12.jpg" onclick="openLightbox(11)">
+    <img src="img/13.jpg" onclick="openLightbox(12)">
+    <img src="img/14.jpg" onclick="openLightbox(13)">.
+    <img src="img/15.jpg" onclick="openLightbox(14)">
+    <img src="img/16.jpg" onclick="openLightbox(15)">
+    <img src="img/17.jpg" onclick="openLightbox(16)">
+    <img src="img/18.jpg" onclick="openLightbox(17)">
+    <img src="img/19.jpg" onclick="openLightbox(18)">
+    <img src="img/20.jpg" onclick="openLightbox(19)">
+    <img src="img/21.jpg" onclick="openLightbox(20)">
+    <img src="img/22.jpg" onclick="openLightbox(21)">
+    <img src="img/23.jpg" onclick="openLightbox(22)">
+ 
+</div>
+
+<div class="lightbox" id="lightbox" onclick="closeLightboxOutside(event)">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <span class="prev" onclick="prevImage()">&#10094;</span>
+    <img id="lightbox-img" src="">
+    <span class="next" onclick="nextImage()">&#10095;</span>
+</div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
